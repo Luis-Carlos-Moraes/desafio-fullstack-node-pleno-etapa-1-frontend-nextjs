@@ -1,4 +1,4 @@
-# README — Etapa 1 (Apresentação + Frontend)
+# Etapa 1 (Apresentação + Frontend)
 
 ## Desafio
 
