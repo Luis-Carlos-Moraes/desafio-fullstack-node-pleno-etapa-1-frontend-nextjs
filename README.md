@@ -3,6 +3,8 @@
 ## Desafio
 
 Implementar um **layout responsivo em Next.js** com base na imagem de referência **`Layout.jpg`**, incluindo um **carrossel responsivo** que se comporta de forma diferente em telas pequenas.
+![Imagem do WhatsApp de 2025-09-08 à(s) 19 20 46_e09b293e](https://github.com/user-attachments/assets/76f2e279-4d35-40cc-93fd-e9d668e14f19)
+
 
 **Tempo sugerido:** \~30 min
 **Stack:** Next.js (JavaScript, sem TypeScript)
