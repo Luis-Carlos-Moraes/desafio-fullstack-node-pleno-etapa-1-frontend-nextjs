@@ -29,47 +29,6 @@ Implementar um **layout responsivo em Next.js** com base na imagem de referênci
    * Em **largura ≥ 768px**, o carrossel deve funcionar normalmente (auto-play opcional).
 5. **Sem TypeScript.**
 
-## Como começar
-
-```bash
-# crie o projeto (pode usar App Router ou Pages Router)
-npx create-next-app@latest etapa-1-frontend
-# ou utilize sua base Next já pronta
-
-cd etapa-1-frontend
-npm i
-npm run dev
-```
-
-## Estrutura sugerida
-
-```
-etapa-1-frontend/
-  public/
-    imagens/ (opcional)
-    Layout.jpg (apenas referência; não precisa servir)
-  src/ (ou pages/ se usar Pages Router)
-    app/ (ou pages/)
-      page.jsx
-      globals.css
-    components/
-      Carousel.jsx
-  README.md
-```
-
-## Regras do carrossel
-
-* Você pode usar uma lib leve ou implementar na mão.
-* O “desligar” em < 768px pode ser via media query + render condicional (ex.: `useEffect` para medir `window.innerWidth`), ou CSS simples que exiba somente um slide.
-
-## Como rodar localmente
-
-```bash
-npm install
-npm run dev
-# acesse http://localhost:3000
-```
-
 ## Critérios de avaliação
 
 * **Adesão ao Design:** fidelidade ao `Layout.jpg`.
