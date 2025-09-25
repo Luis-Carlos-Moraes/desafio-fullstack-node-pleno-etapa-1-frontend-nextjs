@@ -38,13 +38,13 @@ export const  Navbar = () => {
           </li>
         </ul>
         <div className="flex items-center space-x-4 text-white">
-          <button className="hover:text-pink-400 transition">
+          <button className="hover:text-pink-400 transition cursor-pointer">
             🔍
           </button>
-          <button className="hover:text-pink-400 transition">
+          <button className="hover:text-pink-400 transition cursor-pointer">
             🛒
           </button>
-          <button className="hover:text-pink-400 transition">
+          <button className="hover:text-pink-400 transition cursor-pointer">
             ☰
           </button>
         </div>
