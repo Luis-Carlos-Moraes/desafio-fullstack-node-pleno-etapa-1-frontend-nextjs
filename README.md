@@ -1,45 +1,36 @@
-# Etapa 1 (Apresentação + Frontend)
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Desafio
+## Getting Started
 
-Implementar um **layout responsivo em Next.js** com base na imagem de referência **`Layout.jpg`**, incluindo um **carrossel responsivo** que se comporta de forma diferente em telas pequenas.
-![Imagem do WhatsApp de 2025-09-08 à(s) 19 20 46_e09b293e](https://github.com/user-attachments/assets/76f2e279-4d35-40cc-93fd-e9d668e14f19)
+First, run the development server:
 
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-**Tempo sugerido:** \~30 min
-**Stack:** Next.js (JavaScript, sem TypeScript)
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## O que você vai entregar
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-* Um projeto Next.js que replica o visual de `Layout.jpg`.
-* Um carrossel de imagens:
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-  * **Desktop/Tablet (≥ 768px):** carrossel ativo.
-  * **Mobile (< 768px):** carrossel desativado e exibição de **apenas 1 imagem** estática.
-* README com instruções de instalação e execução.
+## Learn More
 
-> **Antes de começar (2–5 min):** faça uma apresentação rápida: quem é você, experiências relevantes e principais escolhas técnicas que costuma fazer no dia a dia.
+To learn more about Next.js, take a look at the following resources:
 
-## Requisitos
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-1. **Adesão ao Design:** Reproduza o layout de `Layout.jpg` (tipografia aproximada e espaçamentos consistentes).
-2. **Fontes:** Use fontes semelhantes (ex.: Google Fonts).
-3. **Imagens:** Evite imagens supérfluas; priorize CSS para elementos visuais (sombras, gradientes, shapes).
-4. **Carrossel Responsivo:**
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-   * Em **largura < 768px**, **desative** o carrossel e mostre **apenas uma imagem** (à sua escolha).
-   * Em **largura ≥ 768px**, o carrossel deve funcionar normalmente (auto-play opcional).
-5. **Sem TypeScript.**
+## Deploy on Vercel
 
-## Critérios de avaliação
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-* **Adesão ao Design:** fidelidade ao `Layout.jpg`.
-* **Responsividade:** comportamento correto do carrossel em diferentes larguras.
-* **Qualidade do Código:** organização de componentes, nomeação, CSS/estilos.
-* **Documentação:** README claro (instalação, execução).
-
-## Entrega
-
-* Publique em um **repositório público** no GitHub e inclua o link no envio.
-
----
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
