@@ -23,9 +23,10 @@ export default function InfoSection() {
         "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore",
     },
   ];
+  
   return (
     <section className="py-12 bg-white">
-      <div className="max-w-6xl mx-auto px-4 grid grid-cols-3 gap-8">
+      <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
         {features.map((feature, idx) => (
           <div
             key={idx}
